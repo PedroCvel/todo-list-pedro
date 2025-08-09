@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List - Exemplo Git</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>📋 Todo List - Exemplo Git</h1>
+        
+        <div class="board">
+            <div class="column" data-status="todo">
+                <div class="column-header">
+                    <h2 class="column-title">📝 A Fazer</h2>
+                    <button class="add-btn" onclick="addNewTodo()" title="Adicionar novo To-Do">+</button>
+                </div>
+                <div class="todo-list" id="todo-list"></div>
+            </div>
+
+            <div class="column" data-status="doing">
+                <div class="column-header">
+                    <h2 class="column-title">🚀 Iniciado</h2>
+                </div>
+                <div class="todo-list" id="doing-list"></div>
+            </div>
+
+            <div class="column" data-status="done">
+                <div class="column-header">
+                    <h2 class="column-title">✅ Finalizado</h2>
+                </div>
+                <div class="todo-list" id="done-list"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
