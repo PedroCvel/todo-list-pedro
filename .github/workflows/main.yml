@@ -1,0 +1,10 @@
+name: Hello World Workflow
+on: push
+jobs:
+  saudar-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v3
+      - name: Executar script de saudação
+        run: echo "Olá, mundo! O meu primeiro GitHub Action está funcionando."
