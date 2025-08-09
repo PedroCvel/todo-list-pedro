@@ -38,9 +38,9 @@ Geralmente, faz-se o fork no GitHub e depois o clone desse fork para a máquina 
 Pull Request (PR) é uma proposta formal para mesclar alterações de um branch de um fork para o branch principal do repositório original. Além de solicitar a merge, serve como espaço para revisão de código, discussão e sugestões, garantindo colaboração e qualidade no projeto.
 
 ### Prática:
-1. Realizar o fork do repositório presente em `https://github.com/Joao-Biederman/todo_git`
+1. Realizar o fork do repositório presente em `https://github.com/Joao-Biederman/todo-list`
 2. Realizar o clone do fork com `git clone git@github.com/SEU-USERNAME/NOME-DO-REPOSITORIO.git`
-3. Configurar a upstream do repositório local com `git remote add upstream git@github.com:Joao-Biederman/todo_git.git`
+3. Configurar a upstream do repositório local com `git remote add upstream git@github.com:Joao-Biederman/todo-list.git`
 4. Criar uma branch para subir as atualizações `git checkout -b feature/meu-primeiro-pr`
 5. Realizar o commit e o push para seu repositório na núvem
 6. Abrir o repositório original e solicitar um pull request
